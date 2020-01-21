@@ -10,8 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    @emails.split(/[, ]/).uniq
-    @emails.select { |i| i.empty?}
+    emailing = @emails.split(/[, ]/).uniq
     
     
 end
